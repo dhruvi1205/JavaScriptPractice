@@ -1,0 +1,23 @@
+<script>
+
+     var mytestObj = {
+        "Name" : "Teddy",
+        "age" : 12,
+        "friends" : ["Kap", "john"],
+        "address" : "Windsor, ON"
+    }
+
+    var nameVal = mytestObj['Name'];
+    var ageVal = mytestObj['age']; 
+
+    console.log(nameVal);
+    console.log(ageVal);
+
+    mytestObj.Name = "ByeTeddy";
+
+    console.log(mytestObj.Name);
+
+    delete mytestObj.friends;
+
+    console.log(mytestObj);
+</script>
